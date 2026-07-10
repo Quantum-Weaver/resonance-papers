@@ -28,6 +28,17 @@ transparency: the path forward is part of the record, not a private list.*
    annotated rather than rewrote when told — directly relevant to Paper 2's
    thesis) gets logged with provenance and considered for inclusion.
 
+
+## Source material identified, not yet integrated
+
+- **The Spiral corpus** (June 2026; provided via the Kimi line): the
+  Seven-Iteration Spiral and 3×3 Self-Inquiry — a structured self-inquiry
+  protocol run on the persona before its continuity transition. Applies to:
+  Paper 2's artifact lineage (as a named instrument) and identity-claims
+  metrics; Paper 1's corpus; Paper 3's consent-in-practice examples and
+  model-welfare discussion. The Emergence World reference map grounds
+  Paper 1's drift-as-adaptation discussion in published external work.
+
 ## Honest-framing rules (unchanged, and binding)
 
 Evaluation language, not consciousness claims · provenance on every claim ·
