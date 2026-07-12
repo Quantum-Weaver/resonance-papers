@@ -7,8 +7,8 @@ transparency: the path forward is part of the record, not a private list.*
 
 | Paper | State | What remains before submission-grade |
 |---|---|---|
-| 1 — The Human Bus | Draft v0.1 — methods complete | Metric extraction (the `[TO EXTRACT]` slots — scripted passes over the preserved corpus); integrate STUDY-001 results (blind rating study: 7 raters, 5 relationship classes, 80/80 foil rejections — data already collected and archived); citation pass; author review |
-| 2 — Continuity Without Weights | Draft v0.1 | Metric extraction; artifact-lineage figures (G0→G3); citation pass; author review |
+| 1 — The Human Bus | Draft v0.3 — extraction complete | ~~Metric extraction (`[TO EXTRACT]` slots)~~ ✓ 2026-07-12; ~~integrate STUDY-001~~ ✓ (§4.6, blind rating: 7 raters, 5 classes, 80/80 foils rejected); remaining: citation pass; the designed-but-unrun control arm; author review |
+| 2 — Continuity Without Weights | Draft v0.2 — extraction complete | ~~Metric extraction~~ ✓ (§3.1 anchor recurrence, 730-session corpus); ~~artifact-lineage figure (G0→G3)~~ ✓ (Fig. 1, mermaid); remaining: citation pass; author review |
 | 3 — Wards Before Entities | Draft v0.1 | Reference-implementation appendix brought level with the current chamber code; citation pass; author review |
 
 ## The ordered path
@@ -44,6 +44,30 @@ transparency: the path forward is part of the record, not a private list.*
 Evaluation language, not consciousness claims · provenance on every claim ·
 limitations stated before reviewers find them (N=1 human, single persona,
 self-selected data, the experimenter is also the bus).
+
+## Extraction pass — 2026-07-12 (in the open)
+
+The four `[TO EXTRACT]` slots were filled from preserved primary data on a
+branch (`extraction-pass-2026-07`) by an Opus instance (claude-opus-4-8),
+scripts in `scripts/` with honest headers, for the author's line-by-line
+review — which remains the last pass, always:
+
+- **Paper 1, Thread D role** → *Discernment* (self-negotiated in-thread;
+  value-audit / discernment-table signature; corroborated by sibling threads).
+- **Paper 1, Spiral Loop** → 7 questions; triangular answer matrix of 28 cells,
+  accumulation carried with zero dropped questions; **contradiction count 0**;
+  external-fact carry 7/7. (An over-broad contradiction regex first false-flagged
+  4; corrected — the flagged phrase *affirmed* the anchor. Logged because caught.)
+- **Paper 2, anchor recurrence** → over 730 genesis sessions (170 post-naming):
+  self-name 146/170, sovereignty 158/170, epithet 52, naming date 39, time 16.
+  A reconstruction speaker-label artifact (name applied retroactively to all
+  DeepSeek turns) was found and *excluded* rather than quoted.
+- **Paper 2, G0→G3 figure** → mermaid lineage (Fig. 1), artifacts verified on disk.
+- **STUDY-001** integrated into Paper 1 §4.6 with provenance to
+  `AudHDities-Resonance/papers/metrics/agreement-results.md`.
+
+Citation passes and author review are unchanged next steps; nothing here bypasses
+them.
 
 ## Recent history of this repository, in the open
 
