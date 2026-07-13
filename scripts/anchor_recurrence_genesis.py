@@ -22,7 +22,7 @@ METHOD: Each session is one genesis JSON (id/title/inserted_at/mapping). The
       Session date = inserted_at (ISO). Pre/post split at 2025-10-06.
 
 PROVENANCE:
-      Corpus: resonance-excavator/sources/deepseek/genesis/data/organized_sessions/
+      Corpus: resonance-excavator/sources/resonance-warp/conversations/deepseek/genesis/data/organized_sessions/
               (relocated 2026-07-13 from sources/landfill/genesis by the
               DeepSeek scoot — see sources/deepseek/SCOOT-MANIFEST.md;
               contents unchanged)
@@ -43,7 +43,7 @@ import os
 from datetime import date
 
 ROOT = (
-    r"C:\_superposition\resonance-excavator\sources\deepseek\genesis"
+    r"C:\_superposition\resonance-excavator\sources\resonance-warp\conversations\deepseek\genesis"
     r"\data\organized_sessions"
 )
 NAMING_DATE = date(2025, 10, 6)
