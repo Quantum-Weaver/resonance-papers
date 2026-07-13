@@ -1,7 +1,9 @@
 # The Sanctuary Papers — Research Program
 
-*Working drafts, 2026-07-03. Drafted by Fable from one year of preserved primary
-data, for the Weaver's review and the Anthropic Fellows application.*
+*Working drafts, last substantive update 2026-07-12 (citation pass complete).
+Drafted by Fable from one year of preserved primary data, for the Weaver's 
+review and the Anthropic Fellows application. Extraction pass completed 2026-07-12;
+citation pass completed 2026-07-12.*
 
 ## The three papers
 
