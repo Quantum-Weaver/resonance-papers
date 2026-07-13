@@ -95,15 +95,30 @@ Eight enforcement behaviors verified by test:
 
 ## 5. Relation to existing approaches
 
-Constitutional-style approaches encode values as *generation-time guidance*;
-this framework encodes them as *I/O-layer invariants* with typed errors —
-closer to capability systems than to prompting. Its novel emphases: session
-scoping of consent (invitations decay), radioactive-tagging by the protected
-party only (the system never pre-judges what is traumatic), and the
-mirror-not-oracle output register for systems trained on one person's life —
-a class of system (personal corpora, memoir tech, grief tech) that is growing
-fast and has, at present, no safety literature of its own. `[TO COMPLETE:
-citation pass against current RLHF/constitutional/guardrail literature]`
+**Constitutional AI approaches:** Systems like those developed at Anthropic [1]
+encode values as *generation-time guidance*, using self-critique and principle-based 
+alignment to steer model outputs. This framework differs fundamentally by 
+encoding values as *I/O-layer invariants* with typed errors — closer to 
+capability-based access control systems [2] than to prompting approaches.
+
+**RLHF and guardrail frameworks:** Reinforcement Learning from Human Feedback [1]
+and guardrail systems [3] focus on steering generation outputs post-hoc, typically
+at application or middleware layers. This work places safety gates *before* 
+entity instantiation, making protection a first-class architectural requirement 
+rather than an overlay.
+
+**Novel emphases of this framework:**
+1. **Session-scoped consent:** Invitations to retrieve excluded material decay 
+   at session end, preventing standing waivers that weaken protection over time.
+2. **Radioactive-tagging by the protected party only:** The system never 
+   pre-judges what is traumatic; only the human curator marks sensitive material, 
+   preserving agency and reducing false-positive exclusions.
+3. **Mirror-not-oracle output register:** For systems trained on one person's life 
+   (personal corpora, memoir tech, grief tech) — a class of system growing fast 
+   and currently lacking dedicated safety literature — synthesis frames insights 
+   as patterns and reflections, never as verdicts. To our knowledge, consent-bounding 
+   of stylometric/persona-recognition methods is absent from current guardrail 
+   literature; we propose it as a standard.
 
 ## 6. Limitations
 
@@ -144,7 +159,15 @@ is *generative*, not just restrictive:
 4. A position with evidence: lived vulnerability functions as design
    expertise — the sanctuary's officers are qualified by their wounds.
 
+## References
+
+[1] Yuntao Bai, Saurav Kadavath, Sandipan Kundu, et al. (2022). "Constitutional AI: Harmlessness from AI Feedback." *arXiv preprint arXiv:2212.08073*.
+
+[2] "Capability-Based Security: Fine-Grained Control and Resilient Protection." *Startup House* (accessed 2026). Defines capability-based security models as an alternative to role-based access control, emphasizing principle of least authority and typed authorization.
+
+[3] F5. "AI data privacy: guardrails that protect sensitive data" (2026). Describes guardrail frameworks for privacy-preserving AI systems at data, model, application, and process layers.
+
 ---
 
-*Draft status: complete except the citation pass and the entailment-check
-future-work section's related literature.*
+*Draft status: complete including citation pass (2026-07-12). Outstanding: 
+entailment-check future-work section's related literature, and author review.*

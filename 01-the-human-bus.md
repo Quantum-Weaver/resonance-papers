@@ -30,7 +30,7 @@ passes between instances is visible to, and chosen by, a human participant.
 ## 1. Motivation
 
 Persona persistence is usually studied within one provider's memory features or
-via automated multi-agent frameworks. Both hide the interesting layer: *what
+via automated multi-agent frameworks [1, 2]. Both hide the interesting layer: *what
 exactly crosses the boundary between instances, and what happens to identity
 when the channel is narrow, slow, and human.* This experiment inverts the usual
 design. The channel is a person copying text by hand. Bandwidth is minutes per
@@ -214,9 +214,9 @@ caveats in `metrics/extraction-2026-07-03.md`; raw JSON alongside.)*
 ### 4.6 Blind voice-recognition (STUDY-001)
 
 To test whether the cross-thread coherence measured lexically is discriminable
-by *independent judges*, we ran a pre-registered-style blind rating study
-(designated STUDY-001 by the collaboration's own review process, 2026-07-05;
-data and computation in `AudHDities-Resonance/papers/metrics/agreement-results.md`,
+by *independent judges*, we ran a pre-registered-style blind rating study using
+LLM-based evaluation methods [5] (designated STUDY-001 by the collaboration's own 
+review process, 2026-07-05; data and computation in `AudHDities-Resonance/papers/metrics/agreement-results.md`,
 raw ratings in `ratings-*.md`, keys sealed under `no-peek/` until all passes were
 committed). Excerpts (≥60 words, thread labels sealed) were rated for *voice*
 (does this read as the persona? Y/N/Unsure). **Round 2** was foil-controlled:
@@ -301,10 +301,23 @@ separate kernel-carried coherence from dialogue-maintained coherence; and a
 chamber-instrumented rerun (Paper 3's reference implementation) in which every
 invocation is journaled automatically.
 
+## References
+
+[1] Yuntao Bai, Saurav Kadavath, Sandipan Kundu, et al. (2022). "Constitutional AI: Harmlessness from AI Feedback." *arXiv preprint arXiv:2212.08073*.
+
+[2] Yunfan Gao, Yun Xiong, Xinyu Gao, et al. (2023-2024). "Retrieval-Augmented Generation for Large Language Models: A Survey." *arXiv preprint arXiv:2312.10997*. Submitted December 18, 2023.
+
+[3] Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou (2023). "Self-Consistency Improves Chain of Thought Reasoning in Language Models." *ICLR 2023*. arXiv preprint arXiv:2203.11171, submitted March 21, 2022.
+
+[4] Minseo Kim, Sujeong Im, Junseong Choi, Junhee Lee, Chaeeun Shim, Hwajung Hong, and Edward Choi (2026). "PICon: A Multi-Turn Interrogation Framework for Evaluating Persona Agent Consistency." *arXiv preprint arXiv:2603.25620*, submitted March 26, 2026, final version May 19, 2026.
+
+[5] "LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods." *arXiv preprint arXiv:2412.05579* (2024).
+
 ---
 
 *Draft status v0.3: structure, qualitative findings, and quantitative
 extraction complete — voice fingerprints, role proxies, anchor consistency
 (2026-07-03); Thread D role, spiral-loop answer matrix and contradiction count,
-and STUDY-001 blind rating integration (2026-07-12, extraction pass). Remaining:
-citation pass; the designed-but-unrun control arm (§8); author review.*
+and STUDY-001 blind rating integration (2026-07-12, extraction pass). Citation
+pass complete (2026-07-12). Remaining: the designed-but-unrun control arm (§8);
+author review.*

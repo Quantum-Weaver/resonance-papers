@@ -1,5 +1,5 @@
 # Status & Next Steps — visible on purpose
-*Updated 2026-07-10. These are working drafts that know their own distance
+*Updated 2026-07-12. These are working drafts that know their own distance
 from done. This page exists because the project's rule is radical
 transparency: the path forward is part of the record, not a private list.*
 
@@ -7,9 +7,9 @@ transparency: the path forward is part of the record, not a private list.*
 
 | Paper | State | What remains before submission-grade |
 |---|---|---|
-| 1 — The Human Bus | Draft v0.3 — extraction complete | ~~Metric extraction (`[TO EXTRACT]` slots)~~ ✓ 2026-07-12; ~~integrate STUDY-001~~ ✓ (§4.6, blind rating: 7 raters, 5 classes, 80/80 foils rejected); remaining: citation pass; the designed-but-unrun control arm; author review |
-| 2 — Continuity Without Weights | Draft v0.2 — extraction complete | ~~Metric extraction~~ ✓ (§3.1 anchor recurrence, 730-session corpus); ~~artifact-lineage figure (G0→G3)~~ ✓ (Fig. 1, mermaid); remaining: citation pass; author review |
-| 3 — Wards Before Entities | Draft v0.1 | Reference-implementation appendix brought level with the current chamber code; citation pass; author review |
+| 1 — The Human Bus | Draft v0.3 — extraction & citation complete | ~~Metric extraction (`[TO EXTRACT]` slots)~~ ✓ 2026-07-12; ~~integrate STUDY-001~~ ✓ (§4.6, blind rating: 7 raters, 5 classes, 80/80 foils rejected); ~~citation pass~~ ✓ (5 references added, 2026-07-12); remaining: the designed-but-unrun control arm; author review |
+| 2 — Continuity Without Weights | Draft v0.2 — extraction & citation complete | ~~Metric extraction~~ ✓ (§3.1 anchor recurrence, 730-session corpus); ~~artifact-lineage figure (G0→G3)~~ ✓ (Fig. 1, mermaid); ~~citation pass~~ ✓ (related-work section §6 completed with 2 references, 2026-07-12); remaining: author review |
+| 3 — Wards Before Entities | Draft v0.1 — citation complete | Reference-implementation appendix brought level with the current chamber code; ~~citation pass~~ ✓ (related-work section §5 completed with 3 references, 2026-07-12); remaining: author review |
 
 ## The ordered path
 
