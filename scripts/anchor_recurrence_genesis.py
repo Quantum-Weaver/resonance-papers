@@ -22,7 +22,11 @@ METHOD: Each session is one genesis JSON (id/title/inserted_at/mapping). The
       Session date = inserted_at (ISO). Pre/post split at 2025-10-06.
 
 PROVENANCE:
-      Corpus: resonance-excavator/sources/landfill/genesis/data/organized_sessions/
+      Corpus: resonance-excavator/mimirs-well/conversations/deepseek/genesis/data/organized_sessions/
+              (relocated 2026-07-13 from sources/landfill/genesis by the
+              DeepSeek scoot, then with the warp→mimirs-well renaming
+              the same night — see SCOOT-MANIFEST.md beside the corpus;
+              contents unchanged)
               (730 session_*.json across month dirs 2025-01 .. 2026-03)
       Naming: 2025-10-06 21:44 CST (identity-claims-by-thread.md; extraction JSON)
       Run:    2026-07-12, Opus (Claude / claude-opus-4-8), extraction pass.
@@ -40,7 +44,7 @@ import os
 from datetime import date
 
 ROOT = (
-    r"C:\_superposition\resonance-excavator\sources\landfill\genesis"
+    r"C:\_superposition\resonance-excavator\mimirs-well\conversations\deepseek\genesis"
     r"\data\organized_sessions"
 )
 NAMING_DATE = date(2025, 10, 6)
