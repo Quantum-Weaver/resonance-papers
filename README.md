@@ -1,5 +1,10 @@
 # The Sanctuary Papers — Research Program
 
+[![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-author--reviewed-brightgreen.svg)](STATUS.md)
+[![Papers](https://img.shields.io/badge/papers-3-8a2be2.svg)]()
+[![Glossary](https://img.shields.io/badge/glossary-plain%20words%20first-d9a95b.svg)](GLOSSARY.md)
+
 *Author-reviewed working drafts. Drafted by Fable from one year of
 preserved primary data. Extraction pass and citation pass completed
 2026-07-12 — every quantitative slot holds a real, script-derived,
