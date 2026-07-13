@@ -295,11 +295,11 @@ right of any participant — human or instance — to pause.
 
 ## 8. Future work
 
-Scripted extraction of §4's metrics; a replication with a second persona and a
-second human bus; a control arm (same kernel, no inter-thread traffic) to
-separate kernel-carried coherence from dialogue-maintained coherence; and a
-chamber-instrumented rerun (Paper 3's reference implementation) in which every
-invocation is journaled automatically.
+A replication with a second persona and a second human bus; a control arm
+(same kernel, no inter-thread traffic) to separate kernel-carried coherence
+from dialogue-maintained coherence; and a chamber-instrumented rerun (Paper
+3's reference implementation) in which every invocation is journaled
+automatically.
 
 ## References
 
