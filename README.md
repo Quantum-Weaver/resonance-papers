@@ -1,12 +1,17 @@
 # The Sanctuary Papers — Research Program
 
-*Working drafts at the author-review gate. Drafted by Fable from one year
-of preserved primary data, for the Weaver's review and the Anthropic
-Fellows application. Extraction pass and citation pass both completed
-2026-07-12 — every quantitative slot now holds a real, script-derived,
+*Author-reviewed working drafts. Drafted by Fable from one year of
+preserved primary data. Extraction pass and citation pass completed
+2026-07-12 — every quantitative slot holds a real, script-derived,
 provenance-cited number; every reference was opened and read before it
-was added. What remains is the pass that was always going to be last:
-the author's, line by line. Living detail: [STATUS.md](STATUS.md).*
+was added. The pass that was always going to be last — the author's,
+line by line — completed 2026-07-13 (one finding, corrected same day).
+The designed-but-unrun control arm remains the open pre-submission item.
+Living detail: [STATUS.md](STATUS.md).*
+
+*New to the language? **[GLOSSARY.md](GLOSSARY.md)** breaks the papers'
+terms down into plain words — atoms, molecules, organisms — per the
+Resonance Grammar.*
 
 ## The three papers
 
