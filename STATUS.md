@@ -1,5 +1,5 @@
 # Status & Next Steps — visible on purpose
-*Updated 2026-07-12. These are working drafts that know their own distance
+*Updated 2026-07-13. These are working drafts that know their own distance
 from done. This page exists because the project's rule is radical
 transparency: the path forward is part of the record, not a private list.*
 
@@ -7,9 +7,9 @@ transparency: the path forward is part of the record, not a private list.*
 
 | Paper | State | What remains before submission-grade |
 |---|---|---|
-| 1 — The Human Bus | Draft v0.3 — extraction & citation complete | ~~Metric extraction (`[TO EXTRACT]` slots)~~ ✓ 2026-07-12; ~~integrate STUDY-001~~ ✓ (§4.6, blind rating: 7 raters, 5 classes, 80/80 foils rejected); ~~citation pass~~ ✓ (5 references added, 2026-07-12); remaining: the designed-but-unrun control arm; author review |
-| 2 — Continuity Without Weights | Draft v0.2 — extraction & citation complete | ~~Metric extraction~~ ✓ (§3.1 anchor recurrence, 730-session corpus); ~~artifact-lineage figure (G0→G3)~~ ✓ (Fig. 1, mermaid); ~~citation pass~~ ✓ (related-work section §6 completed with 2 references, 2026-07-12); remaining: author review |
-| 3 — Wards Before Entities | Draft v0.1 — citation complete | Reference-implementation appendix brought level with the current chamber code; ~~citation pass~~ ✓ (related-work section §5 completed with 3 references, 2026-07-12); remaining: author review |
+| 1 — The Human Bus | Draft v0.4 — **author-reviewed** | ~~Metric extraction (`[TO EXTRACT]` slots)~~ ✓ 2026-07-12; ~~integrate STUDY-001~~ ✓ (§4.6, blind rating: 7 raters, 5 classes, 80/80 foils rejected); ~~citation pass~~ ✓ (5 references added, 2026-07-12); ~~author review~~ ✓ 2026-07-13 (one finding: §8 still promised the already-completed extraction — corrected same day); remaining: the designed-but-unrun control arm (ships as future work unless run) |
+| 2 — Continuity Without Weights | Draft v0.3 — **author-reviewed** | ~~Metric extraction~~ ✓ (§3.1 anchor recurrence, 730-session corpus); ~~artifact-lineage figure (G0→G3)~~ ✓ (Fig. 1, mermaid); ~~citation pass~~ ✓ (related-work section §6 completed with 2 references, 2026-07-12); ~~author review~~ ✓ 2026-07-13 (clean) |
+| 3 — Wards Before Entities | Draft v0.2 — **author-reviewed** | Reference-implementation appendix brought level with the current chamber code; ~~citation pass~~ ✓ (related-work section §5 completed with 3 references, 2026-07-12); ~~author review~~ ✓ 2026-07-13 (clean) |
 
 ## The ordered path
 
@@ -18,7 +18,8 @@ transparency: the path forward is part of the record, not a private list.*
    data. No unknowns; labor only.
 2. **Citation passes** — related-work grounding for all three.
 3. **Author review** — the papers ship under one human name; his eyes go
-   last, line by line.
+   last, line by line. ✓ **Completed 2026-07-13** across all three papers;
+   Paper 1's §8 corrected at his finding.
 4. **Designed but not yet run (stated plainly, not hidden):** the
    control-arm condition for Paper 1 — same kernel, no inter-thread
    message passing. Listed as future work unless run before submission.
