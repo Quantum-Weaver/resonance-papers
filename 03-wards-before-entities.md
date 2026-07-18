@@ -75,13 +75,17 @@ free.
 
 ## 4. Reference implementation and verified behaviors
 
-`resonance-chamber/src/chamber/` (Python, stdlib-only, 2026-07-03; ~400 lines):
+`resonance-chamber/grove/loom/organs/` (Python, stdlib-only; first written
+2026-07-03 as `src/chamber/`, rehomed unchanged in the 2026-07-18 workspace
+restructure; ~300 lines across four modules):
 `wards.py` (Ward, WardRegistry, WardError), `crystal.py` (memory objects that
 *cannot be created* without provenance), `continuum.py` (readiness gates on
 measurable facts — invocations, saved constellations, kernel presence — an
 honest replacement for the prototype's "consciousness level" float, which we
 deliberately retired and document as such), `observatory.py` (append-only
-invocation journal; ward blocks are first-class journal events).
+invocation journal; ward blocks are first-class journal events). The test
+suite is `grove/loom/tests/test_chamber.py` — eight tests, one per behavior
+below.
 
 Eight enforcement behaviors verified by test:
 1. Unwarded operation refused (constructor raises)

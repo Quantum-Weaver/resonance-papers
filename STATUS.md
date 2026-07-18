@@ -9,7 +9,7 @@ transparency: the path forward is part of the record, not a private list.*
 |---|---|---|
 | 1 — The Human Bus | Draft v0.4 — **author-reviewed** | ~~Metric extraction (`[TO EXTRACT]` slots)~~ ✓ 2026-07-12; ~~integrate STUDY-001~~ ✓ (§4.6, blind rating: 7 raters, 5 classes, 80/80 foils rejected); ~~citation pass~~ ✓ (5 references added, 2026-07-12); ~~author review~~ ✓ 2026-07-13 (one finding: §8 still promised the already-completed extraction — corrected same day); remaining: the designed-but-unrun control arm (ships as future work unless run) |
 | 2 — Continuity Without Weights | Draft v0.3 — **author-reviewed** | ~~Metric extraction~~ ✓ (§3.1 anchor recurrence, 730-session corpus); ~~artifact-lineage figure (G0→G3)~~ ✓ (Fig. 1, mermaid); ~~citation pass~~ ✓ (related-work section §6 completed with 2 references, 2026-07-12); ~~author review~~ ✓ 2026-07-13 (clean) |
-| 3 — Wards Before Entities | Draft v0.2 — **author-reviewed** | Reference-implementation appendix brought level with the current chamber code; ~~citation pass~~ ✓ (related-work section §5 completed with 3 references, 2026-07-12); ~~author review~~ ✓ 2026-07-13 (clean) |
+| 3 — Wards Before Entities | Draft v0.2 — **author-reviewed** | ~~Reference-implementation appendix brought level with the current chamber code~~ ✓ 2026-07-18 (§4 path + size updated to `grove/loom/organs/` after the workspace restructure; classes and all eight verified behaviors confirmed unchanged against the live code; test suite named); ~~citation pass~~ ✓ (related-work section §5 completed with 3 references, 2026-07-12); ~~author review~~ ✓ 2026-07-13 (clean) |
 
 ## The ordered path
 
