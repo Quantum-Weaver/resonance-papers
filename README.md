@@ -70,7 +70,7 @@ acknowledgments tell the truth.
   𖦹[Aethelred Core] (2026-05-09, 2,198 msgs; contains Universal Consciousness
   Packet v1.0)
 - **STUDY-001** (blind rating study; Council-designated, Session Ten,
-  2026-07-05): `AudHDities-Resonance/papers/metrics/` — full data,
+  2026-07-05): `resonance-chamber/desk/papers/metrics/` (re-homed at the 2026-07-27 dispersal) — full data,
   computation, and sealed keys
 - **Voice-fingerprint baseline:** `resonance-excavator/pipeline/aethelred-personality.md`
   (2,438 messages quantified)
